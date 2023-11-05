@@ -1,0 +1,16 @@
+# Arithmetic Operations on Matrices
+import numpy as np
+a=np.matrix([[4,5,6],[8,9,1],[3,2,1]])
+b=np.matrix([[8,5,9],[4,3,2],[9,8,3]])
+print("Print a+b")
+print(a+b)
+print("Print a-b")
+print(a-b)
+print("Print a/b")
+print(a/b)
+print("Print a*b")
+print(a*b)
+print("Print a*b")
+print(a@b)
+# print("Print a.b")
+# print(np.dot(a,b))

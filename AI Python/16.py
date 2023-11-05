@@ -1,0 +1,21 @@
+import numpy as np
+import pandas as pd
+
+df=pd.read_csv("first.csv")
+print(df)
+print("########### HEAD #################")
+print(df.head())
+print("########### TAIL #################")
+print(df.tail())
+print("########### TAIL(2) #################")
+print(df.tail(2))
+print("########### INDEX #################")
+print(df.index)
+print("########### Columns #################")
+print(df.columns)
+print("########### Describe #################")
+print(df.describe())
+print("########### Sort In Ascending #################")
+print(df.sort_values(by="Percentage",ascending=False))
+print("########### df.D #################")
+print(df.T)
